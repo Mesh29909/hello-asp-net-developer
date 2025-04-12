@@ -41,7 +41,7 @@ app.MapPost("/greetings", (GreetDeveloperRequest request) =>
     var response = GreetDeveloperResponseAssembler.ToResponseFromEntity(developer);
     return Results.Created("/greetings", response);
     
-}).WithName("Greetings").WithOpenApi();
+}).WithName("Greetingss").WithOpenApi();
 
 
 app.Run();
