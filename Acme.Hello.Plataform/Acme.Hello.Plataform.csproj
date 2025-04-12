@@ -12,4 +12,8 @@
         
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Generic\Interfaces\Rest\Assemblers\" />
+    </ItemGroup>
+
 </Project>
